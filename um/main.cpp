@@ -11,11 +11,11 @@ auto main() -> void
 		cout << "\n driver communications not initialized.\n";
 	}
 
-	t1drv::ProcessIdentifier = t1drv::FindProcessID("notepad.exe");
+	t1drv::ProcessIdentifier = t1drv::FindProcessID("explorer.exe");
 	
 	virtualaddy = t1drv::GetBaseAddress();
 
-	cout << "Process BaseAddress -> " << virtualaddy << "\n";
+	cout << "BaseAddress -> " << virtualaddy << "\n";
 
 	/*
 	*
