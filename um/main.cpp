@@ -11,7 +11,7 @@ auto main() -> void
 		cout << "\n driver communications not initialized.\n";
 	}
 
-	t1drv::ProcessIdentifier = t1drv::FindProcessID("FortniteClient-Win64-Shipping.exe");
+	t1drv::ProcessIdentifier = t1drv::FindProcessID("notepad.exe");
 	
 	virtualaddy = t1drv::GetBaseAddress();
 
